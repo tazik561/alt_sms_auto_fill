@@ -16,7 +16,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _commingSms = 'Unknown';
 
-  Future<void> initPlatformState() async {
+  Future<void> initSmsListener() async {
     String commingSms;
     try {
       commingSms = await AltSmsAutofill().listenForSms;
@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
             ),
             TextButton(
               child: Text('Listen for sms code'),
-              onPressed: initPlatformState,
+              onPressed: initSmsListener,
             ),
           ],
         ),
