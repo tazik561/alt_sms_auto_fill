@@ -14,10 +14,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _commingSms = 'Unknown';
+  String? _commingSms = 'Unknown';
 
   Future<void> initSmsListener() async {
-    String commingSms;
+    String? commingSms;
     try {
       commingSms = await AltSmsAutofill().listenForSms;
     } on PlatformException {

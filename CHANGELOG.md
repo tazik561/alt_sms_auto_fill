@@ -9,3 +9,7 @@
 ## 0.1.3
 
 * Remove write sms permission
+
+## 1.0.0
+
+* Support null safety
