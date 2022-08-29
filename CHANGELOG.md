@@ -16,4 +16,8 @@
 
 ## 1.0.1
 
-* Updates Android permission for receiving and reading messages
+* Updates Android permission for receiving and reading messages.
+
+## 1.0.2
+
+* Support Android SDK 31
