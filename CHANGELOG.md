@@ -13,3 +13,8 @@
 ## 1.0.0
 
 * Support null safety
+
+## 1.0.3
+
+* Support Android SDK 31
+* Support Flutter 3.7

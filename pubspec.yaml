@@ -1,10 +1,10 @@
 name: alt_sms_autofill
-description: Alt Sms Autofill.
-version: 1.0.0
+description: Sms Auto fill.
+version: 1.0.3
 homepage: https://github.com/tazik561/alt_sms_auto_fill
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.17.0 <3.0.0'
   flutter: ">=1.20.0"
 
 dependencies:

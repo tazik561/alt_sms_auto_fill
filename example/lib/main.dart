@@ -14,19 +14,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String? _commingSms = 'Unknown';
+  String? _comingSms = 'Welcome to flutter';
 
   Future<void> initSmsListener() async {
-    String? commingSms;
+    String? comingSms;
     try {
-      commingSms = await AltSmsAutofill().listenForSms;
+      comingSms = await AltSmsAutofill().listenForSms;
     } on PlatformException {
-      commingSms = 'Failed to get Sms.';
+      comingSms = 'Failed to get Sms.';
     }
     if (!mounted) return;
 
     setState(() {
-      _commingSms = commingSms;
+      _comingSms = comingSms;
     });
   }
 
@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Center(
-              child: Text('Running on: $_commingSms\n'),
+              child: Text('Running on: $_comingSms\n'),
             ),
             TextButton(
               child: Text('Listen for sms code'),
