@@ -39,9 +39,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('AltAutoFill example app'),
+          centerTitle: true,
+          title: const Text('SMS auto fill'),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
