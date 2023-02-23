@@ -4,7 +4,7 @@ Alt Sms Autofill.
 
 ## Getting Started
 
-This project is for getting new arrived sms and shows on application. Sms completely return into application and you can split it as you want.
+This package aims to get the newly arrived SMS and show it at the desired location. SMS ultimately returns to the application and you can split it as you want.
 
 ![](https://raw.githubusercontent.com/tazik561/alt_sms_auto_fill/main/images/alt_sms_autofill.gif?raw=true) 
 
